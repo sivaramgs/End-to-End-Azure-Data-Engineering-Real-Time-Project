@@ -30,11 +30,11 @@ To implement an end to end data platform from Data Ingestion, Data Transformatio
 # Azure Data Factory Pipeline configuration with Run results
 - Created self-hosted Microsoft Integration Runtime and installed it in on-prem system to connect with Azure Datafactory.
 - In Azure Data Factory, created a pipeline with copydata and foreach activities to copy all the table data from on-prem to Azure datalake ALDS Gen2.
-  ### Created linked services at the required steps in the pipeline.
-  ### Configured an access policy to access azure datalake gen2 in the pipeline.
-  ### Configured the source and sink in the pipeline activities and pass the table name dynamically to copy data.
-  ### Written databricks pyspark notebook to mount the diffferent azure storage containers : bronze, silver, gold and Passed through the credentials.
-  ### Written Bronze_to_Silver transformation code to change the date columns with datetimestamp datatype to date datatype in all tables
+  1. Created linked services at the required steps in the pipeline.
+  2. Configured an access policy to access azure datalake gen2 in the pipeline.
+  3. Configured the source and sink in the pipeline activities and pass the table name dynamically to copy data.
+  4. Written databricks pyspark notebook to mount the diffferent azure storage containers : bronze, silver, gold and Passed through the credentials.
+  5. Written Bronze_to_Silver transformation code to change the date columns with datetimestamp datatype to date datatype in all tables
   
 ### ![Datafactory_pipeline](assets/Datafactory_pipeline.png)
 
