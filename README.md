@@ -1,5 +1,5 @@
 # Project
-To create an end to end data platform from Data Ingestion, Data Transformation, Data Loading and Reporting. 
+To Implement an end to end data platform from Data Ingestion, Data Transformation, Data Loading and Reporting. 
 
 # High Level Requirements:
 - Collect and ingest data from the source system to lakehouse platform.
