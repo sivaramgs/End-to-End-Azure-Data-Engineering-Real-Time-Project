@@ -18,11 +18,12 @@ To implement an end to end data platform from Data Ingestion, Data Transformatio
 
 
 # Containers created under Azure Storage Account
+- Created three containers in ADLS Gen2 Storage for Bronze, Silver and Gold tables used in Azure Databricks.
 ### ![storagecontainers](assets/storagecontainers.png)
 
 
 # Secrets created under Azure Key Vault
-- Create Azure Key vault secrets for password to connect on-prem database server and databricks token to be used in Datafactory pipeline. 
+- Created Azure Key vault secrets: 1) password to connect on-prem database server, 2) databricks token to be used in Datafactory pipeline. 
 ### ![keyvault](assets/keyvault.png)
 
 
