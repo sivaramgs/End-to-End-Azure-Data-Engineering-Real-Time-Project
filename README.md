@@ -22,6 +22,7 @@ To implement an end to end data platform from Data Ingestion, Data Transformatio
 
 
 # Secrets created under Azure Key Vault
+- Create Azure Key vault secrets for password to connect on-prem database server and databricks token to be used in Datafactory pipeline. 
 ### ![keyvault](assets/keyvault.png)
 
 
