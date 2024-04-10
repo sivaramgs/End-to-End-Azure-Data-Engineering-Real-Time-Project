@@ -34,7 +34,9 @@ To implement an end to end data platform from Data Ingestion, Data Transformatio
     2. Configured an access policy to access azure datalake gen2 in the pipeline.
     3. Configured the source and sink in the pipeline activities and pass the table name dynamically to copy data.
     4. Written databricks pyspark notebook to mount the diffferent azure storage containers : bronze, silver, gold and Passed through the credentials.
-    5. Written Bronze_to_Silver transformation code to change the date columns with datetimestamp datatype to date datatype in all tables
+    5. Written Bronze_to_Silver transformation code to change the date columns with datetimestamp datatype to date datatype in all tables.
+    6. Written Silver_To_Gold code to rename the columns that has two joined words with an "_" underscore in between. eg: ModifiedDate as Modified_Date
+    7. Tested the datafactory pipeline end-to-end by loading data from on-prem MSSQL to gold table in Azure Datalake Gen2.
   
 ### ![Datafactory_pipeline](assets/Datafactory_pipeline.png)
 
