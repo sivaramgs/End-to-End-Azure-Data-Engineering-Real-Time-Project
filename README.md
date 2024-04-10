@@ -46,12 +46,19 @@ To implement an end to end data platform from Data Ingestion, Data Transformatio
 
 
 # Azure Synapse Analytics Pipeline configuration with Run results
-### ![Synapse_Analytics](assets/synapse_pipeline.png)
 - In Azure Synapse Analytics Studio, created a SQL database as serverless using built-in sql pools with a linked service.
 - Written a Stored procedure in synapse analytics to create a view for all tables in gold database.
 - In azure synapse , configured a pipeline with activities getmetadata and foreach to automate view creation of all gold tables.
+### ![Synapse_Analytics](assets/synapse_pipeline.png)
+
 
 # PowerBi Interactive Dashboard with Synapse Analytics Integration
+- In powerbi desktop, loaded the data from synapse gold database views and configured the data modelling to create appropriate dashboard visualizations.
+- Verified the relationship among the tables and set "cross filter direction" as **both** to apply the filter in required visualizations.
+- Used Azure Active Directory to configure a security group and assigned users who can access the resource group resources.
+- Scheduled a trigger in datafactory to automate the end-to-end pipeline of the project from data ingestion to report generation in powerbi.
+- Verified the pipeline by doing a testing of inserting new records in on-prem MSSQL database and the visualization in powerbi reflects the changes.
+
 ### ![PowerBi](assets/powerbi.png)
 
 
