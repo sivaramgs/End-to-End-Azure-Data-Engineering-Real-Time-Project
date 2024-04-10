@@ -33,7 +33,7 @@ To create an end to end data platform from Data Ingestion, Data Transformation, 
 
 
 # Azure Synapse Analytics Pipeline configuration with Run results
-### ![Databricks](assets/azuredatabricks.png)
+### ![Synapse_Analytics](assets/synapse_pipeline.png)
 
 
 # PowerBi Interactive Dashboard with Synapse Analytics Integration
