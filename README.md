@@ -9,7 +9,7 @@ To create an end to end data platform from Data Ingestion, Data Transformation, 
 - Test the data platform Pipeline End to End.
   
 # Project Architecture
-
+### ![Architecture](assets/Project_Architecture.png)
 # Tech Stack:
 - Azure Data Factory
 - Azure Data Lake Storage Gen2
