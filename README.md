@@ -9,3 +9,12 @@ To create an end to end data platform from Data Ingestion, Data Transformation, 
 - Test the data platform Pipeline End to End.
   
 ## Project Architecture
+
+# Tech Stack:
+- Azure Data Factory
+- Azure Data Lake Storage Gen2
+- Azure Databricks
+- Azure Synapse Analytics
+- Azure Key vault
+- Azure Active Directory (AAD) and
+- Microsoft Power BI
