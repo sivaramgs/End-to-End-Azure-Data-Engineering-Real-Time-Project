@@ -11,26 +11,34 @@ To create an end to end data platform from Data Ingestion, Data Transformation, 
 # Project Architecture
 ### ![Architecture](assets/Project_Architecture.png)
 
+
 # Azure Resources created under Resource Group
 ### ![Architecture](assets/resourcegroup.png)
+
 
 # Containers created under Azure Storage Account
 ### ![storagecontainers](assets/storagecontainers.png)
 
+
 # Secrets created under Azure Key Vault
 ### ![keyvault](assets/keyvault.png)
+
 
 # Azure Data Factory Pipeline configuration with Run results
 ### ![Datafactory_pipeline](assets/Datafactory_pipeline.png)
 
+
 # Azure Databricks configuration 
 ### ![Databricks](assets/azuredatabricks.png)
+
 
 # Azure Synapse Analytics Pipeline configuration with Run results
 ### ![Databricks](assets/azuredatabricks.png)
 
-# Azure PowerBi Interactive Dashboard with Synapse Analytics Integration
+
+# PowerBi Interactive Dashboard with Synapse Analytics Integration
 ### ![PowerBi](assets/powerbi.png)
+
 
 # Tech Stack:
 - Azure Data Factory
