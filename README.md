@@ -8,7 +8,7 @@ To create an end to end data platform from Data Ingestion, Data Transformation, 
 - Use Azure Active Directory (AAD) and Azure Key Vault for the monitoring and governance purpose.
 - Test the data platform Pipeline End to End.
   
-## Project Architecture
+# Project Architecture
 
 # Tech Stack:
 - Azure Data Factory
