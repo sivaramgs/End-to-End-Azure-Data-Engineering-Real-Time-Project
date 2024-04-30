@@ -11,23 +11,23 @@ To implement an end to end data platform from Data Ingestion, Data Transformatio
 # Project Architecture
 ### ![Architecture](assets/Project_Architecture.png)
 
-
-# Azure Resource Group
+# Work Done:
+## Created Azure Resource Group
 - Created the required resources under single resource group: Azure Key Vault, Azure data factory, Azure databricks workspace, Azure synapse analytics, Azure Storage Account
 ### ![Architecture](assets/resourcegroup.png)
 
 
-# Containers created under Azure Storage Account
+## Created Containers under Azure Storage Account
 - Created three containers in ADLS Gen2 Storage for Bronze, Silver and Gold tables used in Azure Databricks.
 ### ![storagecontainers](assets/storagecontainers.png)
 
 
-# Secrets created under Azure Key Vault
+## Created Secrets under Azure Key Vault
 - Created Azure Key vault secrets: 1) password to connect on-prem database server, 2) databricks token to be used in Datafactory pipeline. 
 ### ![keyvault](assets/keyvault.png)
 
 
-# Azure Data Factory Pipeline configuration with Run results
+## Configured Azure Data Factory Pipelines - Run results
 - Created self-hosted Microsoft Integration Runtime and installed it in on-prem system to connect with Azure Datafactory.
 - In Azure Data Factory, created a pipeline with copydata and foreach activities to copy all the table data from on-prem to Azure datalake ALDS Gen2.
     1. Created linked services at the required steps in the pipeline.
@@ -41,18 +41,18 @@ To implement an end to end data platform from Data Ingestion, Data Transformatio
 ### ![Datafactory_pipeline](assets/Datafactory_pipeline.png)
 
 
-# Azure Databricks configuration 
+## Configured Azure Databricks
 ### ![Databricks](assets/azuredatabricks.png)
 
 
-# Azure Synapse Analytics Pipeline configuration with Run results
+## Configured Azure Synapse Analytics Pipelines - Run results
 - In Azure Synapse Analytics Studio, created a SQL database as serverless using built-in sql pools with a linked service.
 - Written a Stored procedure in synapse analytics to create a view for all tables in gold database.
 - In azure synapse , configured a pipeline with activities getmetadata and foreach to automate view creation of all gold tables.
 ### ![Synapse_Analytics](assets/synapse_pipeline.png)
 
 
-# PowerBi Interactive Dashboard with Synapse Analytics Integration
+## Created PowerBi Interactive Dashboard with Synapse Analytics Integration
 - In powerbi desktop, loaded the data from synapse gold database views and configured the data modelling to create appropriate dashboard visualizations.
 - Verified the relationship among the tables and set "cross filter direction" as **both** to apply the filter in required visualizations.
 - Used Azure Active Directory to configure a security group and assigned users who can access the resource group resources.
