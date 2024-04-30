@@ -59,8 +59,7 @@ To implement an end to end data platform from Data Ingestion, Data Transformatio
 - Scheduled a trigger in datafactory to automate the end-to-end pipeline of the project from data ingestion to report generation in powerbi.
 - Verified the pipeline by doing a testing of inserting new records in on-prem MSSQL database and the visualization in powerbi reflects the changes.
 
-
-
+### ![powerbi](assets/powerbi.png)
 
 # Tech Stack:
 - Azure Data Factory
