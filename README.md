@@ -7,9 +7,19 @@ To implement an end to end data platform from Data Ingestion, Data Transformatio
 - Use Azure Synapse Analytics to load the clean data and use Microsoft Power BI to integrate with Azure synapse analytics to build an interactive dashboard.
 - Use Azure Active Directory (AAD) and Azure Key Vault for the monitoring and governance purpose.
 - Test the data platform Pipeline End to End.
-  
+
 # Project Architecture
 ### ![Architecture](assets/Project_Architecture.png)
+
+
+# Tech Stack:
+- Azure Data Factory
+- Azure Data Lake Storage Gen2
+- Azure Databricks
+- Azure Synapse Analytics
+- Azure Key vault
+- Azure Active Directory (AAD) and
+- Microsoft Power BI
 
 # Work Done:
 ## Created Azure Resource Group
@@ -60,12 +70,3 @@ To implement an end to end data platform from Data Ingestion, Data Transformatio
 - Verified the pipeline by doing a testing of inserting new records in on-prem MSSQL database and the visualization in powerbi reflects the changes.
 
 ### ![powerbi](assets/powerbi.png)
-
-# Tech Stack:
-- Azure Data Factory
-- Azure Data Lake Storage Gen2
-- Azure Databricks
-- Azure Synapse Analytics
-- Azure Key vault
-- Azure Active Directory (AAD) and
-- Microsoft Power BI
