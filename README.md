@@ -2,11 +2,11 @@
 To implement an end to end data platform from Data Ingestion, Data Transformation, Data Loading and Reporting in Azure. 
 
 # High Level Requirements:
-- Collect and ingest data from the source system to lakehouse platform.
-- Use Azure databricks to transform the RAW data to the most cleanest form of data (Gold Tables).
-- Use Azure Synapse Analytics to load the clean data and use Microsoft Power BI to integrate with Azure synapse analytics to build an interactive dashboard.
-- Use Azure Active Directory (AAD) and Azure Key Vault for the monitoring and governance purpose.
-- Test the data platform Pipeline End to End.
+1. Collect and ingest data from the source system to lakehouse platform.
+2. Use Azure databricks to transform the RAW data to the most cleanest form of data (Gold Tables).
+3. Use Azure Synapse Analytics to load the clean data and use Microsoft Power BI to integrate with Azure synapse analytics to build an interactive dashboard.
+4. Use Azure Active Directory (AAD) and Azure Key Vault for the monitoring and governance purpose.
+5. Test the data platform Pipeline End to End.
 
 # Project Architecture
 ### ![Architecture](assets/Project_Architecture.png)
