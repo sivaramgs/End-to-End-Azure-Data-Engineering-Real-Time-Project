@@ -24,7 +24,7 @@ To implement an end to end data platform from Data Ingestion, Data Transformatio
 # Work Done:
 ## Created Azure Resource Group
 - Created the required resources under single resource group: Azure Key Vault, Azure data factory, Azure databricks workspace, Azure synapse analytics, Azure Storage Account
-### ![Architecture](assets/resourcegroup.png)
+### ![resourcegroup](assets/resourcegroup.png)
 
 
 ## Created Containers under Azure Storage Account
